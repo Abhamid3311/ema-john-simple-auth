@@ -27,8 +27,9 @@ const Cart = (props) => {
             <p>Total shipping charge: ${shipping}</p>
             <p>Tax: ${tax}</p>
             <h2>Grand Total: ${grandTotal}</h2>
+            {props.children}
 
-            <div >
+            {/*  <div >
                 <button className='btn-remove'>
                     <p>Clear Cart</p>
                     <FontAwesomeIcon icon={faTrashAlt} />
@@ -38,7 +39,7 @@ const Cart = (props) => {
                     <FontAwesomeIcon icon={faArrowRight} />
 
                 </button>
-            </div>
+            </div> */}
 
         </div>
     );
