@@ -12,3 +12,12 @@
 11. Create RequireAuth compo. ==> check user excist also check user location
 12. In route wrap protected component by using RequireAuth Compo
 */
+
+/* Firebase hosting Steps
+1. npm install -g firebase-tools (One time for my computer)
+2.firebase login (One time for my computer)
+3. firebase init (One time for each project)
+4. npm run build (Everytime when we update site and deploy)
+5. firebase deploy (Everytime when we update site and deploy)
+
+*/
